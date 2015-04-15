@@ -1,0 +1,8 @@
+<h1>Players Template</h1>
+<ul>
+  {{#each player in model}}
+      <li>{{player.name}}</li>
+      <li>{{player.team.name}}</li>
+  {{/each}}
+</ul>
+{{outlet}}
